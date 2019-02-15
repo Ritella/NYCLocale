@@ -11,6 +11,7 @@
       <br>Finally, I validated my model with another dataset-- <a href="https://data.cityofnewyork.us/Housing-Development/DOB-Permit-Issuance/ipu4-2q9a">building construction permits</a>.
       <br>Areas with a high amount of new construction predicted areas of increased weekend subway traffic. 
       <br> 
-      <br>Please explore the map and type in an address or intersection you're thinking of staying near.<br> 
-      <br>You can find my analysis code on <a href="https://github.com/Ritella/NYCLocale">github</a> and more information about me <a href="https://www.linkedin.com/in/rita-loiotile/">here.</a>
+      <br>Please visit my website at www.ritaloiotile.com. Explore the map and type in an address or intersection you're thinking of staying near.<br> 
+      <br>Here, you can find my analysis code (in Python) and front-end code (Flask). 
+      <br>You can find more information about me <a href="https://www.linkedin.com/in/rita-loiotile/">here.</a>
       <br>I conceived of and executed this project in 3 weeks as an <a href="https://www.insightdatascience.com/">Insight</a> NYC Data Science Fellow (Jan 2019).</h3></p>
