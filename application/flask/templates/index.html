@@ -8,7 +8,7 @@
    <meta name="author" content="">
    <link rel="icon" href="../../favicon.ico">
 
-   <title>Starter Template for Bootstrap</title>
+   <title>NYCLocal(e)</title>
 
    <!-- Bootstrap core CSS -->
    <link href="../static/css/bootstrap.min.css" rel="stylesheet">
@@ -41,7 +41,7 @@
            <span class="icon-bar"></span>
            <span class="icon-bar"></span>
          </button>
-         <a class="navbar-brand" href="#">Project name</a>
+	 <a class="navbar-brand" href="#"><font color="red">NYCLocal(e)</font></a>
        </div>
        <div class="collapse navbar-collapse">
          <ul class="nav navbar-nav">
@@ -53,22 +53,22 @@
      </div>
    </div>
 <br><br>
-
-   <div class="container">
-
-    <div class="starter-template">
-        <h2>Welcome to your live Flask app</h2>        
-    </div>
-
-    <div class = "container">
-        <center>
-            <img src="../../static/images/the-internet-meme.jpg" alt="the-internet-meme">
-        </center>
-    </div>
-
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="static/js/bootstrap.min.js"></script>
-
+  <div class = "starter-template">
+  <div class = "col-sm-12 col-xs-12 col-md-3">
+      <img class="img-responsive" 
+      src="../../static/images/bklyn.jpg" alt="bklyn-image"/>
+  </div>
+  <div class = "col-sm-12 col-xs-12 col-md-8">
+      <h1>Welcome to <font color="red">NYCLocal(e)</font></h1> 
+      <h3>Know the locales like a local.</h3>
+      <h1> <br><br><br></h1>
+  <div>
+      <img src="../../static/images/Legend.png" alt="legend-image" width="350">
+  </div>
+  {% include "export.html" %}
+  </div>
+  <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="static/js/bootstrap.min.js"></script>
   </div> <!-- /.container-->
 
 
